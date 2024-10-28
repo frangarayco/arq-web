@@ -1,0 +1,125 @@
+/* Reset de márgenes y paddings */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.work-experience {
+    margin-top: 40px; /* Espacio superior entre secciones */
+}
+
+.work-experience h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.work-experience ul {
+    list-style-type: none;
+}
+
+.work-experience li {
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+.work-experience li:last-child {
+    border-bottom: none;
+}
+
+.work-experience strong {
+    color: #007BFF;
+}
+
+hr {
+    border: 0;
+    height: 3px;
+    background: hsl(0, 0%, 0%); /* Color azul del resto del diseño */
+    margin: 40px 0; /* Espacio arriba y abajo de la línea */
+}
+
+.current-studies {
+    margin-top: 40px; /* Espacio superior entre secciones */
+}
+
+.current-studies h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.current-studies ul {
+    list-style-type: none;
+}
+
+.current-studies li {
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+.current-studies li:last-child {
+    border-bottom: none;
+}
+
+.current-studies strong {
+    color: #007BFF;
+}
+
+.profile-picture {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.profile-picture img {
+    width: 150px; /* Puedes ajustar el tamaño según prefieras */
+    height: 150px;
+    border-radius: 50%; /* Hace que la imagen sea circular */
+    object-fit: cover;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    font-size: 2em;
+    color: #007BFF;
+}
+
+.personal-info h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.personal-info ul {
+    list-style-type: none;
+}
+
+.personal-info li {
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+.personal-info li:last-child {
+    border-bottom: none;
+}
+
+.personal-info strong {
+    color: #007BFF;
+}
